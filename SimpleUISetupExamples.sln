@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35309.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET8", "NET8", "{801DD2FB-228A-42F9-8A67-59B945F90B3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET9", "NET9", "{7ACB1A77-C134-49B8-B1C3-4ECA45E7DADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorSSRNoInteractivity", "NET9\BlazorSSRNoInteractivity\BlazorSSRNoInteractivity.csproj", "{2B6F49E9-495C-4D83-A64D-CF3C564D8016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorInteractiveServer", "NET9\BlazorInteractiveServer\BlazorInteractiveServer.csproj", "{0FE97EA3-F671-4389-B6D0-AD64AE0C99BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorInteractiveWebAssembly", "NET9\BlazorInteractiveWebAssembly\BlazorInteractiveWebAssembly\BlazorInteractiveWebAssembly.csproj", "{06F32EA8-D6EC-48D1-A4FC-6E229FDD2A46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorInteractiveWebAssembly.Client", "NET9\BlazorInteractiveWebAssembly\BlazorInteractiveWebAssembly.Client\BlazorInteractiveWebAssembly.Client.csproj", "{5412BD8C-8EA9-4F1F-B45C-2150F466DC6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorInteractiveServer", "NET8\BlazorInteractiveServer\BlazorInteractiveServer.csproj", "{AD833A6A-82F9-4F77-8BE6-EF2D156F62F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorInteractiveWebAssembly", "NET8\BlazorInteractiveWebAssembly\BlazorInteractiveWebAssembly\BlazorInteractiveWebAssembly.csproj", "{729862E1-24E3-40AB-8E00-DB17EB0CAA09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorInteractiveWebAssembly.Client", "NET8\BlazorInteractiveWebAssembly\BlazorInteractiveWebAssembly.Client\BlazorInteractiveWebAssembly.Client.csproj", "{308D86F2-A891-4C3B-80B8-26CCFDE34809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorSSRNoInteractivity", "NET8\BlazorSSRNoInteractivity\BlazorSSRNoInteractivity.csproj", "{E56C5EAD-34E5-4E87-9110-F9485024BA76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B6F49E9-495C-4D83-A64D-CF3C564D8016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B6F49E9-495C-4D83-A64D-CF3C564D8016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B6F49E9-495C-4D83-A64D-CF3C564D8016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B6F49E9-495C-4D83-A64D-CF3C564D8016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE97EA3-F671-4389-B6D0-AD64AE0C99BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE97EA3-F671-4389-B6D0-AD64AE0C99BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE97EA3-F671-4389-B6D0-AD64AE0C99BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE97EA3-F671-4389-B6D0-AD64AE0C99BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06F32EA8-D6EC-48D1-A4FC-6E229FDD2A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F32EA8-D6EC-48D1-A4FC-6E229FDD2A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F32EA8-D6EC-48D1-A4FC-6E229FDD2A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F32EA8-D6EC-48D1-A4FC-6E229FDD2A46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5412BD8C-8EA9-4F1F-B45C-2150F466DC6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5412BD8C-8EA9-4F1F-B45C-2150F466DC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5412BD8C-8EA9-4F1F-B45C-2150F466DC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5412BD8C-8EA9-4F1F-B45C-2150F466DC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD833A6A-82F9-4F77-8BE6-EF2D156F62F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD833A6A-82F9-4F77-8BE6-EF2D156F62F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD833A6A-82F9-4F77-8BE6-EF2D156F62F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD833A6A-82F9-4F77-8BE6-EF2D156F62F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729862E1-24E3-40AB-8E00-DB17EB0CAA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729862E1-24E3-40AB-8E00-DB17EB0CAA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729862E1-24E3-40AB-8E00-DB17EB0CAA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729862E1-24E3-40AB-8E00-DB17EB0CAA09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{308D86F2-A891-4C3B-80B8-26CCFDE34809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{308D86F2-A891-4C3B-80B8-26CCFDE34809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{308D86F2-A891-4C3B-80B8-26CCFDE34809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{308D86F2-A891-4C3B-80B8-26CCFDE34809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E56C5EAD-34E5-4E87-9110-F9485024BA76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E56C5EAD-34E5-4E87-9110-F9485024BA76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E56C5EAD-34E5-4E87-9110-F9485024BA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E56C5EAD-34E5-4E87-9110-F9485024BA76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B6F49E9-495C-4D83-A64D-CF3C564D8016} = {7ACB1A77-C134-49B8-B1C3-4ECA45E7DADD}
+		{0FE97EA3-F671-4389-B6D0-AD64AE0C99BF} = {7ACB1A77-C134-49B8-B1C3-4ECA45E7DADD}
+		{06F32EA8-D6EC-48D1-A4FC-6E229FDD2A46} = {7ACB1A77-C134-49B8-B1C3-4ECA45E7DADD}
+		{5412BD8C-8EA9-4F1F-B45C-2150F466DC6D} = {7ACB1A77-C134-49B8-B1C3-4ECA45E7DADD}
+		{AD833A6A-82F9-4F77-8BE6-EF2D156F62F3} = {801DD2FB-228A-42F9-8A67-59B945F90B3B}
+		{729862E1-24E3-40AB-8E00-DB17EB0CAA09} = {801DD2FB-228A-42F9-8A67-59B945F90B3B}
+		{308D86F2-A891-4C3B-80B8-26CCFDE34809} = {801DD2FB-228A-42F9-8A67-59B945F90B3B}
+		{E56C5EAD-34E5-4E87-9110-F9485024BA76} = {801DD2FB-228A-42F9-8A67-59B945F90B3B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A84617A8-EC10-469B-BA7F-658284716AEA}
+	EndGlobalSection
+EndGlobal

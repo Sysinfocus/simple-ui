@@ -1,0 +1,19 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<div class="flex-col" style="padding: 0.5rem">
+    <h1>Hello, world!</h1>
+    <Button Text="Click Me!" OnClick="() => showAlert = true" />
+    @if (showAlert)
+    {
+        <Alert Title="Sysinfocus simple/ui" Description="Congratulations! you have successfully installed Sysinfocus simple/ui components." />
+        <Separator />
+        <AboutSysinfocus />
+    }
+</div>
+
+@code
+{
+    bool showAlert;
+}

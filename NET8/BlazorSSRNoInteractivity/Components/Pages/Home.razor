@@ -1,0 +1,28 @@
+﻿@page "/"
+@attribute [StreamRendering]
+
+<PageTitle>Home</PageTitle>
+
+<div class="flex-col" style="padding: 0.5rem">
+    <h1>Hello, world!</h1>
+    <div class="flex">
+        <Button Text="Primary Button" OnClick="() => showAlert = true" />
+        <Button Text="Destructive Button" Type="ButtonType.Destructive" />
+    </div>
+
+    <Calendar Date="date" DateChanged="d => date = d" />
+    <p>Because there is no interactivity, components will only render in their initial state and stay non-interactive.<br />However, if you chose to make a page interactive either Server of WebAssembly or even Auto, they will start working.</p>
+
+    @if (showAlert)
+    {
+        <Alert Title="Sysinfocus simple/ui" Description="Congratulations! you have successfully installed Sysinfocus simple/ui components." />
+        <Separator />
+        <AboutSysinfocus />
+    }
+</div>
+
+@code
+{
+    bool showAlert;
+    DateTime? date;
+}
