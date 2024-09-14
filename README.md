@@ -44,5 +44,22 @@ a Razor component library for Blazor, inspired by the shadcn/ui components.
 7.  For more information, you can download the samples from this repo which has all these steps done and the projects are ready to explore.
 8.  To see the demo of each component, check out [Demo GitHub Repo](https://sysinfocus.github.io/shadcn-inspired/)
 
+---
+
+Release notes for **Version 0.0.1.1**
+
+## Bug fixes
+
+1. Fixed input issue and dark theme forecolor issue in **ComboBox** component.
+1. Fixed the **Accordion** component animation.
+1. Fixed the tab button spacings in **Tabs** component for vertical direction.
+1. Fixed the **Signature** component bounce issue when using on touch devices.
+1. Updated **Button** component with Success, Warning and Info types.
+1. Updated **Alert** component with Success, Warning and Info types.
+1. Updated **Badge** component with Success, Warning and Info types. 
+	 
+For more information, you can download the samples from this repo which has all these steps done and the projects are ready to explore.
+To see the demo of each component, check out [Demo GitHub Repo](https://sysinfocus.github.io/shadcn-inspired/)
+
 ## Have issues?
 Open an issue on this repo or email to issues@sysinfocus.com
