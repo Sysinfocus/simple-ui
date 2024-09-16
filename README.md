@@ -46,6 +46,29 @@ a Razor component library for Blazor, inspired by the shadcn/ui components.
 
 ---
 
+Release notes for **Version 0.0.1.2**
+
+## Updates / Bug fixes
+
+1. Added new event for marker movement `OnMarkerMoved` for **Maps** component.
+1. Added `DistanceKilometers` and `DistanceMiles` methods to get distance between 2 locations in **Geolocation** component.
+1. **Treeview** component added.
+1. Following components have been made available in free tier.
+	- Accordion
+	- Alert
+	- Dialog
+	- Navigation Menu
+	- Select
+	- Table
+
+For more information, you can download the samples from this repo which has all these steps done and the projects are ready to explore.
+To see the demo of each component, check out [Demo GitHub Repo](https://sysinfocus.github.io/shadcn-inspired/)
+
+## Have issues?
+Open an issue on this repo or email to issues@sysinfocus.com
+
+---
+
 Release notes for **Version 0.0.1.1**
 
 ## Bug fixes
@@ -56,10 +79,4 @@ Release notes for **Version 0.0.1.1**
 1. Fixed the **Signature** component bounce issue when using on touch devices.
 1. Updated **Button** component with Success, Warning and Info types.
 1. Updated **Alert** component with Success, Warning and Info types.
-1. Updated **Badge** component with Success, Warning and Info types. 
-	 
-For more information, you can download the samples from this repo which has all these steps done and the projects are ready to explore.
-To see the demo of each component, check out [Demo GitHub Repo](https://sysinfocus.github.io/shadcn-inspired/)
-
-## Have issues?
-Open an issue on this repo or email to issues@sysinfocus.com
+1. Updated **Badge** component with Success, Warning and Info types. 	
