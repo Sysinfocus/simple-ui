@@ -46,6 +46,20 @@ a Razor component library for Blazor, inspired by the shadcn/ui components.
 
 ---
 
+Release notes for **Version 0.0.1.3**
+
+## Bug fixes
+
+1. Fixed the issue in **Select** component.
+
+For more information, you can download the samples from this repo which has all these steps done and the projects are ready to explore.
+To see the demo of each component, check out [Demo GitHub Repo](https://sysinfocus.github.io/shadcn-inspired/)
+
+## Have issues?
+Open an issue on this repo or email to issues@sysinfocus.com
+
+---
+
 Release notes for **Version 0.0.1.2**
 
 ## Updates / Bug fixes
@@ -60,12 +74,6 @@ Release notes for **Version 0.0.1.2**
 	- Navigation Menu
 	- Select
 	- Table
-
-For more information, you can download the samples from this repo which has all these steps done and the projects are ready to explore.
-To see the demo of each component, check out [Demo GitHub Repo](https://sysinfocus.github.io/shadcn-inspired/)
-
-## Have issues?
-Open an issue on this repo or email to issues@sysinfocus.com
 
 ---
 
