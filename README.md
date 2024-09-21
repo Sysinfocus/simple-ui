@@ -48,6 +48,17 @@ a Razor component library for Blazor, inspired by the shadcn/ui components.
 
 # Release Notes
 
+Release notes for **Version 0.0.1.5**
+
+## Updates / Bug fixes
+1. **SpeechToText** component added.
+1. **TextToSpeech** component added.
+1. Added new property **ReadOnly** for **Input** and **TextArea** components.
+1. Fixed UI for **Verify Human** component.
+1. Now the JS and CSS dependencies are used from local components' folder. If you want them to be served from CDNs, you can use the **AddSysinfocus** method's `jsCssFromCDN` parameter and set it to `true`, which toggle's this feature. 
+
+---
+
 Release notes for **Version 0.0.1.4**
 
 ## Bug fixes
