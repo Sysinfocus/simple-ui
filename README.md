@@ -48,6 +48,17 @@ a Razor component library for Blazor, inspired by the shadcn/ui components.
 
 # Release Notes
 
+Release notes for **Version 0.0.1.6**
+
+## Updates / Bug fixes
+1. **SaveFilePicker** component updated to fallback to regular download, in case any browser doesn't support the new APIs.
+1. Added new method to preload JS and CSS either all or some of the dependencies using `PreloadJSAndCSSDependencies` method of the ``Initialization`` class. This needs to be called in the **Layouts**.
+1. Fixed tab focus issues for **Dialog** and **Alert Dialog** components.
+1. Fixed issues with **GeoLocation** component registering DotNet reference.
+1. Added `ClearState` and `PopFromState` methods for `StateManager` to clear memory.
+
+---
+
 Release notes for **Version 0.0.1.5**
 
 ## Updates / Bug fixes
