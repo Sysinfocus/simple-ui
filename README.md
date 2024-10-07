@@ -48,6 +48,14 @@ a Razor component library for Blazor, inspired by the shadcn/ui components.
 
 # Release Notes
 
+Release notes for **Version 0.0.1.8**
+
+## Updates / Bug fixes
+1. Fixed buy with **CodeScanner** component for missing assembly reference.
+1. Added **FileManager** component.
+
+---
+
 Release notes for **Version 0.0.1.7**
 
 ## Updates / Bug fixes
