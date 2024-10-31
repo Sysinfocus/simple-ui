@@ -51,7 +51,7 @@ a Razor component library for Blazor, inspired by the shadcn/ui components.
 Release notes for **Version 0.0.1.8**
 
 ## Updates / Bug fixes
-1. Fixed buy with **CodeScanner** component for missing assembly reference.
+1. Fixed bug with **CodeScanner** component for missing assembly reference.
 1. Added **FileManager** component.
 
 ---
