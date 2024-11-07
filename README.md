@@ -48,6 +48,14 @@ a Razor component library for Blazor, inspired by the shadcn/ui components.
 
 # Release Notes
 
+Release notes for **Version 0.0.1.9**
+
+## Updates / Bug fixes
+1. Updated **Accordion** component with bug fixes and new reduced animation.
+1. Fixed bugs in **Widget**, **Checkbox** and updated properties *Style* and *Class* for **Badge** components.
+
+---
+
 Release notes for **Version 0.0.1.8**
 
 ## Updates / Bug fixes
