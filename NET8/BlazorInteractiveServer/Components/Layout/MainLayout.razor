@@ -1,7 +1,13 @@
 ﻿@inherits LayoutComponentBase
 @inject Initialization init
 
-<div @onclick="init.HandleMainLayoutClickEvent">
+<div class="container" @onclick="init.HandleMainLayoutClickEvent">
+    <div class="flex jcsb mb1">
+        <h3 class="normal large">Brand Name</h3>
+
+        <Icon Name="@(init.CurrentTheme == "light" ? "dark_mode" : "light_mode")"
+              OnClick="init.ToggleTheme" />
+    </div>
     @Body
 </div>
 

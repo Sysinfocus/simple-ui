@@ -1,9 +1,26 @@
 ﻿@inherits LayoutComponentBase
 @inject Initialization init
 
-<div @onclick="init.HandleMainLayoutClickEvent">
+<div class="container" @onclick="init.HandleMainLayoutClickEvent">
+    <div class="flex jcsb mb1">
+        <h3 class="normal large">Brand Name</h3>
+
+        <Icon Name="@(init.CurrentTheme == "light" ? "dark_mode" : "light_mode")"
+              OnClick="init.ToggleTheme" Id="colorTheme" />
+    </div>
     @Body
 </div>
+
+<script>
+    let theme = "@init.CurrentTheme";
+    document.querySelector('#colorTheme')
+        .addEventListener('click', () => {
+            document.querySelector('body').classList.remove(theme)
+            theme = theme == "dark" ? "light" : "dark";
+            document.querySelector('body').classList.add(theme)
+        });
+</script>
+
 
 @code
 {
