@@ -48,6 +48,14 @@ a Razor component library for Blazor, inspired by the shadcn/ui components.
 
 # Release Notes
 
+Release notes for **Version 0.0.2**
+
+## Updates / Bug fixes
+1. Updated **Textarea** and **Swipe** components with more parameters.
+1. Fixed bugs in **Slider** component.
+
+---
+
 Release notes for **Version 0.0.1.9**
 
 ## Updates / Bug fixes
