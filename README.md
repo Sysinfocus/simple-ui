@@ -2,6 +2,7 @@
 a Razor component library for Blazor, inspired by the shadcn/ui components.
 
 # THIS LIBRARY IS NOW - **FREE TO USE** - FOR ALL
+Use the latest version 0.0.2.1
 
 ## Setup Instructions
 
