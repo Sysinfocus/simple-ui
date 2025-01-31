@@ -1,13 +1,15 @@
 # Sysinfocus simple/ui
 a Razor component library for Blazor, inspired by the shadcn/ui components.
 
+# THIS LIBRARY IS NOW - **FREE TO USE** - FOR ALL
+
 ## Setup Instructions
 
 1.  Download the NuGet package `Sysinfocus.AspNetCore.Components` to your project.
 
 2.  Add `@using Sysinfocus.AspNetCore.Components` to your `_import.razor` file.
 
-3.  Add `builder.Services.AddSysinfocus("your-license-key");` to your `Program.cs` file. If you don't have **license key**, leave it empty and it will be treated as Trial version.
+3.  Add `builder.Services.AddSysinfocus();` to your `Program.cs` file.
 
 4.  Add the following CSS to your project's appropriate file as this depends upon the type of project being used.
     ```
