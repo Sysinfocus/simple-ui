@@ -1,6 +1,8 @@
 # Sysinfocus simple/ui
 a Razor component library for Blazor, inspired by the shadcn/ui components.
 
+**I am planning to make this library free to use for all, if this repo get 100+ stars.**
+
 ## Setup Instructions
 
 1.  Download the NuGet package `Sysinfocus.AspNetCore.Components` to your project.
