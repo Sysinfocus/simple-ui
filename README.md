@@ -45,7 +45,7 @@ Use the latest version 0.0.2.1
 
 6.  For non-interactive Blazor SSR, you need to add the `light` or `dark` class to `body` tag manually as it can't initialize automatically.
 7.  For more information, you can download the samples from this repo which has all these steps done and the projects are ready to explore.
-8.  To see the demo of each component, check out [Demo GitHub Repo](https://sysinfocus.github.io/shadcn-inspired/)
+8.  To see the demo of each component, check out [Demo](https://blazor.art/)
 
 ---
 
@@ -150,7 +150,7 @@ Release notes for **Version 0.0.1.1**
 ---
 
 For more information, you can download the samples from this repo which has all these steps done and the projects are ready to explore.
-To see the demo of each component, check out [Demo GitHub Repo](https://sysinfocus.github.io/shadcn-inspired/)
+To see the demo of each component, check out [Demo](https://blazor.art/)
 
 ## Have issues?
 Open an issue on this repo or email to issues@sysinfocus.com
