@@ -7,6 +7,7 @@ Release notes for **Version 0.0.2.9**
 1. Updated **Treeview** component to raise `OnExpanded` and `OnCollapsed` events only on parent nodes.
 1. Added `Prefix` and `Suffix` attributes to **Input** component.
 1. Added `GetInnerText`, `GetInnerHtml`, `SetInnerText` and `SetInnerHtml` methods to **BrowserExtensions**.
+1. Added **MarkdownPreview** component.
 1. Other minor UI fixes.
 
 ---
