@@ -12,7 +12,7 @@ Use the latest version 0.0.2.1
 
 2.  Add `@using Sysinfocus.AspNetCore.Components` to your `_import.razor` file.
 
-3.  Add `builder.Services.AddSysinfocus();` to your `Program.cs` file.
+3.  Add `builder.Services.AddSysinfocus(jsCssFromCDN: false);` to your `Program.cs` file.
 
 4.  Add the following CSS to your project's appropriate file as this depends upon the type of project being used.
     ```
@@ -48,6 +48,7 @@ Use the latest version 0.0.2.1
 6.  For non-interactive Blazor SSR, you need to add the `light` or `dark` class to `body` tag manually as it can't initialize automatically.
 7.  For more information, you can download the samples from this repo which has all these steps done and the projects are ready to explore.
 8.  To see the demo of each component, check out [Demo](https://blazor.art/)
+9.  Check out the [Release Notes](ReleaseNotes.md)
 
 ---
 
