@@ -1,5 +1,23 @@
 # Release Notes
 
+Release notes for **Version 0.0.3.1**
+
+## New / Updates / Bug fixes
+1. Added **ServerSentEvents** component (a headless component to read SSE messages effortlessly).
+1. Fixed **Input** component UI to always use width 100% for internal container.
+1. Fixed **Select** component that was invoking submit action when used within **EditForm** component.
+
+---
+
+Release notes for **Version 0.0.3.0**
+
+## New / Updates / Bug fixes
+1. Fixed **Input** component UI and binding issue.
+1. Added `DisableMove` property to **Pills** component.
+1. Other minor UI fixes.
+
+---
+
 Release notes for **Version 0.0.2.9**
 
 ## New / Updates / Bug fixes
