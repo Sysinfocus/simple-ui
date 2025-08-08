@@ -1,5 +1,27 @@
 # Release Notes
 
+Release notes for **Version 0.0.3.3**
+
+## New / Updates / Bug fixes
+1. Fixed `EmptyTemplate` bug in **DataTable** component. Thanks to [@x3rt] for reporting the issue.
+1. Updated **Checkbox** component to highlight border when hovered/focused.
+1. Updated **RadioGroupItem** component to highlight border when hovered/focused.
+1. Added **SafeAreaView** component that is handy for mobile app.
+1. Updated **Calendar** component to handle smart year changes to 5 or 10 years, if it detects continuous previous of next year changes.
+1. Fixed **Select** component to show placeholder lighter in comparison to the actual selected item.
+1. Replaced Base font from "Geist Sans" to Google Font "Geist" and with all font weights in the base styles.css.
+1. Fixed **Drawer** component bottom padding to cover safe area.
+---
+
+Release notes for **Version 0.0.3.2**
+
+## New / Updates / Bug fixes
+1. Fixed **Icon** component `OnClick` bug that was triggering when Disabled.
+1. Added `ContainerStyle` property to **Input** component and update value when on-screen keyboard is hidden.
+1. Fixed **DatePicker** component DateTime issue when its not null.
+
+---
+
 Release notes for **Version 0.0.3.1**
 
 ## New / Updates / Bug fixes
@@ -214,3 +236,4 @@ To see the demo of each component, check out [Demo](https://blazor.art/)
 
 ## Have issues?
 Open an issue on this repo or email to issues@sysinfocus.com
+
