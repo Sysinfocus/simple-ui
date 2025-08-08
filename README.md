@@ -4,7 +4,7 @@ a Razor component library for Blazor, inspired by the shadcn/ui components. [Exp
 # Get [Free UI Templates](https://github.com/Sysinfocus/simple-ui-templates) built using Sysinfocus simple/ui library.
 
 ## THIS LIBRARY IS NOW - **FREE TO USE** - FOR ALL
-Use the latest version 0.0.2.1
+Use the version 0.0.2.1 and above for free access.
 
 ## Setup Instructions
 
